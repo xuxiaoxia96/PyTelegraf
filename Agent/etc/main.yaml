@@ -1,0 +1,24 @@
+alarm:
+  code: metric_alarm
+common_output:
+- console
+# - default
+debug: true
+info:
+  host_name: devcloud
+  node_ip: 127.0.0.1
+interval: 60
+log:
+  level: INFO
+once_open: null
+open:
+# - logfile
+# - coredump_scan
+# - tables
+# - mem
+# - process
+- demo
+output:
+  demo:
+    key: value
+reload_sec: 1

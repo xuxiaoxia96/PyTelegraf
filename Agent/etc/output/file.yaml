@@ -1,0 +1,4 @@
+# 默认的索引名(接口名)
+index: monitor_metric
+# 数据推送时间间隔(秒)
+interval: 5
