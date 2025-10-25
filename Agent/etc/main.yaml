@@ -1,8 +1,7 @@
 alarm:
   code: metric_alarm
 common_output:
-- console
-# - default
+ - default
 debug: true
 info:
   host_name: devcloud
